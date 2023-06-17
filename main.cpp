@@ -21,6 +21,8 @@ class Animal{
         }
     public:
         Animal(){
+            dna_size = 5;
+            p_dna = new std::string[dna_size];
             breath();
             voice();
         };
