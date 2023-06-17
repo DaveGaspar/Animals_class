@@ -478,6 +478,7 @@ int main(){
     Eagle* e = new Eagle;
     std::cout << std::endl;
     Owl* o = new Owl;
+    std::cout << std::endl;
     Hummingbird* h = new Hummingbird;
     std::cout << std::endl;
     Frog* f = new Frog;
